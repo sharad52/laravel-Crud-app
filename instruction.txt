@@ -1,0 +1,27 @@
+installation
+->first install composer and node.js /composer to install laravel and node.js to use npm 
+->creating laravel project 
+    syntax:
+        composer create-project laravel/laravel project_name
+
+->database configuration 
+        in .env file give database name in DB_DATABASE="database name"
+        ->also in config->database.php ->configure mysql database as in .env file 
+
+->run npm install to use npm
+
+->Scafolding with frontend packages
+    syntax:
+        composer require laravel/ui
+
+    ->now you can Scafold require frontend packages
+        // Generate basic scaffolding...
+        php artisan ui bootstrap //for bootstrap
+        php artisan ui vue //for vue.js
+        php artisan ui react //for react.js
+
+        // Generate login / registration scaffolding...
+        php artisan ui bootstrap --auth
+        php artisan ui vue --auth
+        php artisan ui react --auth
+        
