@@ -46,7 +46,7 @@
         <label for="job_title">Job Title:</label>
         <input type="text" class="form-control" name="job_title"/>
     </div>
-    <button type="submit" class="btn btn-primary-outline">Add contact</button>
+    <button type="submit" class="btn btn-dark">Add contact</button>
 
     
     

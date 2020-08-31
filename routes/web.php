@@ -13,8 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('contacts/index');
+// });
 
 Route::resource('contacts','ContactController');
+Route::get('/','ContactController@index');
+
+// Route::get('/welcome',function(){
+//     return view('welcome');
+// });
