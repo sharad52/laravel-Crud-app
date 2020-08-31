@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>laravel_crud</title>
-    <style>
-        .intro{
-            padding:20px;
-            margin:20px;
-        }
-    </style>
-    
-</head>
-<body>
-    <div class="intro">
-        <h1 style="color:red;">Log in:</h1>
+@extends('base')
 
-        <input type="text" name="username">
-        <input type="password" name="password">
-        <input type="submit">
-    </div>
-</body>
-</html>
+@section('main')
+    @include('inc/navbar')
+    <h1>welcome home</h1>
+    <a href="#"><button class="btn btn-dark">Add contacts</button></a>
+    
+@endsection
